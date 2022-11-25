@@ -1,0 +1,16 @@
+<nav>
+    <a href="#">
+        <img src="" alt="logo">
+        <span>Ticketer</span>
+    </a>
+
+    <ul>
+        {% if user.is_authenticated %}
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Help</a></li>
+        {% else %}
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Signup</a></li>
+        {% endif %}
+    </ul>
+</nav>

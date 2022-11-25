@@ -1,0 +1,44 @@
+:root{
+    --primary: teal;
+    --dark:#000;
+    --secondary: #3a3a3a;
+    --light:#fff;
+}
+
+body{
+    background: green;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary);
+}
+ul{
+    list-style: none;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+/* nav */
+nav{
+    width: 100%;
+    background: var(--primary);
+    color: var(--light);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0em 1em;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1em;
+}
